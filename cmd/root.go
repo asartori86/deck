@@ -454,7 +454,7 @@ func initKonnectConfig() error {
 }
 
 func extendHeaders(headers []string) []string {
-	userAgentHeader := fmt.Sprintf("User-Agent:decK/%s", VERSION)
+	userAgentHeader := fmt.Sprintf("User-Agent:Konnect-TestClient/%s", "1.0-dev")
 	headers = append(headers, userAgentHeader)
 	return headers
 }
